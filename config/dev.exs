@@ -2,10 +2,11 @@ import Config
 
 # Configure your database
 config :elixir_gist, ElixirGist.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "gist",
+  password: "gist",
   hostname: "localhost",
-  database: "elixir_gist_dev",
+  database: "gist",
+  port: 54323,
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
